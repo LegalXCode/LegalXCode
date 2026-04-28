@@ -1,0 +1,223 @@
+<svg width="920" height="360" viewBox="0 0 920 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04080f"/>
+      <stop offset="50%" stop-color="#06101f"/>
+      <stop offset="100%" stop-color="#050b18"/>
+    </linearGradient>
+    <filter id="blobGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="38" result="blur"/>
+    </filter>
+    <filter id="smallGlow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+    </filter>
+    <filter id="textGlow" x="-15%" y="-60%" width="130%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="glassFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a84ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#5ac8fa" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64d2ff" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#0a84ff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#5ac8fa" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64d2ff"/>
+      <stop offset="35%" stop-color="#ffffff"/>
+      <stop offset="68%" stop-color="#5ac8fa"/>
+      <stop offset="100%" stop-color="#0a84ff"/>
+    </linearGradient>
+    <linearGradient id="scanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="45%" stop-color="white" stop-opacity="0.055"/>
+      <stop offset="55%" stop-color="white" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="30%" stop-color="white" stop-opacity="0.06"/>
+      <stop offset="70%" stop-color="white" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.75" fill="#0a84ff" fill-opacity="0.14"/>
+    </pattern>
+    <clipPath id="panelClip">
+      <rect x="108" y="55" width="704" height="258" rx="26"/>
+    </clipPath>
+    <style>
+      @keyframes blob1 {
+        0%, 100% { transform: translate(0px, 0px) scale(1); }
+        25% { transform: translate(22px, -16px) scale(1.06); }
+        50% { transform: translate(-14px, 20px) scale(0.96); }
+        75% { transform: translate(8px, -6px) scale(1.02); }
+      }
+      @keyframes blob2 {
+        0%, 100% { transform: translate(0px, 0px) scale(1); }
+        33% { transform: translate(-18px, 14px) scale(1.09); }
+        66% { transform: translate(16px, -18px) scale(0.94); }
+      }
+      @keyframes blob3 {
+        0%, 100% { transform: translate(0px, 0px); }
+        40% { transform: translate(13px, 11px); }
+        80% { transform: translate(-10px, -7px); }
+      }
+      @keyframes scanMove {
+        0% { transform: translateX(-920px); }
+        100% { transform: translateX(1840px); }
+      }
+      @keyframes pulse1 {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.95; }
+      }
+      @keyframes pulse2 {
+        0%, 100% { opacity: 0.25; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes pulse3 {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 1; }
+      }
+      @keyframes dotBreathe {
+        0%, 100% { opacity: 0.7; }
+        50% { opacity: 1; }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0; transform: translateX(-200px); }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { opacity: 0; transform: translateX(900px); }
+      }
+      .blob1 { animation: blob1 9s ease-in-out infinite; }
+      .blob2 { animation: blob2 11.5s ease-in-out infinite 1.2s; }
+      .blob3 { animation: blob3 13s ease-in-out infinite 2.5s; }
+      .scan { animation: scanMove 5s linear infinite; }
+      .p1 { animation: pulse1 2.2s ease-in-out infinite; }
+      .p2 { animation: pulse2 2.8s ease-in-out infinite 0.6s; }
+      .p3 { animation: pulse3 3.2s ease-in-out infinite 1.1s; }
+      .dots-bg { animation: dotBreathe 5s ease-in-out infinite; }
+      .shimmer { animation: shimmer 6s ease-in-out infinite 1.5s; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="920" height="360" fill="url(#bgGrad)"/>
+  <rect width="920" height="360" fill="url(#dots)" class="dots-bg"/>
+
+  <!-- Glowing blobs -->
+  <g class="blob1">
+    <ellipse cx="118" cy="272" rx="165" ry="140" fill="#0a84ff" opacity="0.19" filter="url(#blobGlow)"/>
+  </g>
+  <g class="blob2">
+    <ellipse cx="808" cy="100" rx="175" ry="148" fill="#5ac8fa" opacity="0.14" filter="url(#blobGlow)"/>
+  </g>
+  <g class="blob3">
+    <ellipse cx="462" cy="28" rx="130" ry="95" fill="#64d2ff" opacity="0.11" filter="url(#blobGlow)"/>
+  </g>
+  <ellipse cx="830" cy="320" rx="85" ry="65" fill="#0a84ff" opacity="0.11" filter="url(#smallGlow)"/>
+  <ellipse cx="95" cy="75" rx="72" ry="58" fill="#30d158" opacity="0.06" filter="url(#smallGlow)"/>
+  <ellipse cx="460" cy="355" rx="200" ry="40" fill="#0a84ff" opacity="0.08" filter="url(#smallGlow)"/>
+
+  <!-- Glass panel -->
+  <rect x="108" y="55" width="704" height="258" rx="26" fill="url(#glassFill)"/>
+  <!-- Top inner glow highlight -->
+  <rect x="109" y="56" width="702" height="55" rx="26" fill="url(#topHighlight)"/>
+  <!-- Shimmer sweep -->
+  <g clipPath="url(#panelClip)">
+    <rect x="-200" y="55" width="240" height="258" fill="url(#scanLine)" class="shimmer"/>
+  </g>
+  <!-- Glass border -->
+  <rect x="108" y="55" width="704" height="258" rx="26" fill="none" stroke="url(#glassBorder)" stroke-width="1.5"/>
+  <!-- Inner fine border -->
+  <rect x="109.5" y="56.5" width="701" height="255" rx="25" fill="none" stroke="white" stroke-width="0.5" stroke-opacity="0.10"/>
+
+  <!-- Scan line sweep -->
+  <rect y="0" width="180" height="360" fill="url(#scanLine)" class="scan" opacity="0.35"/>
+
+  <!-- Subtle background code text -->
+  <text x="128" y="90" font-family="monospace" font-size="9.5" fill="#0a84ff" fill-opacity="0.12" letter-spacing="0.5">class LegalCode: status = "always_online"</text>
+  <text x="128" y="105" font-family="monospace" font-size="9.5" fill="#5ac8fa" fill-opacity="0.09" letter-spacing="0.5">const skills = [...everything]  // no seriously</text>
+
+  <!-- Top accent bar -->
+  <rect x="108" y="55" width="704" height="2.5" rx="1" fill="url(#glassBorder)" opacity="0.85"/>
+
+  <!-- Label above title -->
+  <text x="460" y="130" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif"
+        font-size="10.5" font-weight="500" fill="#5ac8fa" fill-opacity="0.65" letter-spacing="5">
+    ⌥ GITHUB PROFILE · @LEGALCODE
+  </text>
+
+  <!-- Main title -->
+  <text x="460" y="210" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif"
+        font-size="82" font-weight="800" letter-spacing="-3.5"
+        fill="url(#textGrad)" filter="url(#textGlow)">LegalCode</text>
+
+  <!-- Tagline -->
+  <text x="460" y="247" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif"
+        font-size="12.5" font-weight="400" letter-spacing="5.5" fill="#a8d8f0" fill-opacity="0.52">
+    CODE LIKE IT'S EVIDENCE  ·  SHIP LIKE IT'S VERDICT
+  </text>
+
+  <!-- Decorative divider -->
+  <line x1="348" y1="264" x2="572" y2="264" stroke="#5ac8fa" stroke-opacity="0.22" stroke-width="1"/>
+  <circle cx="460" cy="264" r="2.5" fill="#5ac8fa" fill-opacity="0.45"/>
+  <circle cx="450" cy="264" r="1.2" fill="#64d2ff" fill-opacity="0.3"/>
+  <circle cx="470" cy="264" r="1.2" fill="#64d2ff" fill-opacity="0.3"/>
+
+  <!-- Status pills row -->
+  <!-- Open to Work -->
+  <rect x="157" y="278" width="128" height="23" rx="11.5" fill="#0a84ff" fill-opacity="0.11" stroke="#0a84ff" stroke-opacity="0.32" stroke-width="1"/>
+  <circle cx="176" cy="289.5" r="4" fill="#30d158"/>
+  <circle cx="176" cy="289.5" r="2" fill="#30d158" opacity="0.5" class="p1"/>
+  <text x="188" y="293.5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="500" fill="#5ac8fa" fill-opacity="0.88">Open to Work</text>
+
+  <!-- Building -->
+  <rect x="297" y="278" width="102" height="23" rx="11.5" fill="#0a84ff" fill-opacity="0.11" stroke="#0a84ff" stroke-opacity="0.32" stroke-width="1"/>
+  <text x="348" y="293.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="500" fill="#5ac8fa" fill-opacity="0.88">🚀 Building</text>
+
+  <!-- Student -->
+  <rect x="411" y="278" width="98" height="23" rx="11.5" fill="#0a84ff" fill-opacity="0.11" stroke="#0a84ff" stroke-opacity="0.32" stroke-width="1"/>
+  <text x="460" y="293.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="500" fill="#5ac8fa" fill-opacity="0.88">📚 Studying</text>
+
+  <!-- Freelance -->
+  <rect x="521" y="278" width="104" height="23" rx="11.5" fill="#0a84ff" fill-opacity="0.11" stroke="#0a84ff" stroke-opacity="0.32" stroke-width="1"/>
+  <text x="573" y="293.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="500" fill="#5ac8fa" fill-opacity="0.88">💼 Freelance</text>
+
+  <!-- Coder -->
+  <rect x="637" y="278" width="135" height="23" rx="11.5" fill="#0a84ff" fill-opacity="0.11" stroke="#0a84ff" stroke-opacity="0.32" stroke-width="1"/>
+  <text x="704.5" y="293.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10" font-weight="500" fill="#5ac8fa" fill-opacity="0.88">⌨️ Coding for Fun</text>
+
+  <!-- Floating particles -->
+  <circle cx="155" cy="175" r="2.2" fill="#5ac8fa" class="p1"/>
+  <circle cx="155" cy="198" r="1.5" fill="#64d2ff" class="p2"/>
+  <circle cx="148" cy="215" r="1" fill="#0a84ff" class="p3"/>
+  <circle cx="765" cy="145" r="2.2" fill="#0a84ff" class="p2"/>
+  <circle cx="775" cy="170" r="1.5" fill="#5ac8fa" class="p1"/>
+  <circle cx="758" cy="195" r="1" fill="#64d2ff" class="p3"/>
+  <circle cx="250" cy="338" r="1.5" fill="#5ac8fa" class="p1" opacity="0.5"/>
+  <circle cx="670" cy="338" r="1.5" fill="#0a84ff" class="p3" opacity="0.5"/>
+  <circle cx="460" cy="345" r="1.2" fill="#64d2ff" class="p2" opacity="0.4"/>
+
+  <!-- Corner brackets (decorative) -->
+  <rect x="108" y="55" width="32" height="2" rx="1" fill="#64d2ff" opacity="0.65"/>
+  <rect x="108" y="55" width="2" height="32" rx="1" fill="#64d2ff" opacity="0.65"/>
+  <rect x="780" y="55" width="32" height="2" rx="1" fill="#64d2ff" opacity="0.65"/>
+  <rect x="810" y="55" width="2" height="32" rx="1" fill="#64d2ff" opacity="0.65"/>
+  <rect x="108" y="311" width="32" height="2" rx="1" fill="#5ac8fa" opacity="0.38"/>
+  <rect x="108" y="283" width="2" height="30" rx="1" fill="#5ac8fa" opacity="0.38"/>
+  <rect x="780" y="311" width="32" height="2" rx="1" fill="#5ac8fa" opacity="0.38"/>
+  <rect x="810" y="283" width="2" height="30" rx="1" fill="#5ac8fa" opacity="0.38"/>
+
+  <!-- Inner panel accent lines -->
+  <line x1="108" y1="155" x2="812" y2="155" stroke="#0a84ff" stroke-opacity="0.04" stroke-width="1"/>
+  <line x1="108" y1="265" x2="812" y2="265" stroke="#0a84ff" stroke-opacity="0.035" stroke-width="1"/>
+</svg>
