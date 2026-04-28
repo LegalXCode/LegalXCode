@@ -194,8 +194,12 @@ class LegalCode:
 <div align="center">
 
 <img height="185em" src="https://github-readme-stats.vercel.app/api?username=LegalXCode&show_icons=true&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&hide_border=false&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-&nbsp;&nbsp;
-<img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&bg_color=0D1117&title_color=0A84FF&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&langs_count=8&hide_border=false" alt="Top Languages"/>
+
+</div>
+
+<div align="center">
+  <br/>
+  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&bg_color=0D1117&title_color=0A84FF&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&langs_count=8&hide_border=false" alt="Top Languages"/>
 
 </div>
 
