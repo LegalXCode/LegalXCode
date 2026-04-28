@@ -193,27 +193,27 @@ class LegalCode:
 
 <div align="center">
 
-<img height="185em" src="https://github-readme-stats.vercel.app/api?username=LegalCode&show_icons=true&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&hide_border=false&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+<img height="185em" src="https://github-readme-stats.vercel.app/api?username=LegalXCode&show_icons=true&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&hide_border=false&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
 &nbsp;&nbsp;
-<img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LegalCode&layout=compact&bg_color=0D1117&title_color=0A84FF&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&langs_count=8&hide_border=false" alt="Top Languages"/>
+<img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&bg_color=0D1117&title_color=0A84FF&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&langs_count=8&hide_border=false" alt="Top Languages"/>
 
 </div>
 
 <div align="center">
   <br/>
-  <img src="https://streak-stats.demolab.com?user=LegalCode&background=0D1117&border=1a2a3f&ring=0A84FF&fire=5AC8FA&currStreakLabel=0A84FF&sideLabels=C9D1D9&sideNums=C9D1D9&currStreakNum=FFFFFF&dates=6E7681&border_radius=14" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com?user=LegalXCode&background=0D1117&border=1a2a3f&ring=0A84FF&fire=5AC8FA&currStreakLabel=0A84FF&sideLabels=C9D1D9&sideNums=C9D1D9&currStreakNum=FFFFFF&dates=6E7681&border_radius=14" alt="GitHub Streak"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LegalCode&bg_color=0D1117&color=5AC8FA&line=0A84FF&point=FFFFFF&area=true&area_color=0A84FF&hide_border=false&border_radius=14&custom_title=Contribution%20Graph" alt="Contribution Graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LegalXCode&bg_color=0D1117&color=5AC8FA&line=0A84FF&point=FFFFFF&area=true&area_color=0A84FF&hide_border=false&border_radius=14&custom_title=Contribution%20Graph" alt="Contribution Graph" width="100%"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=LegalCode&theme=darkhub&column=-1&margin-w=6&margin-h=6&no-bg=false&no-frame=false" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=LegalXCode&theme=darkhub&column=-1&margin-w=6&margin-h=6&no-bg=false&no-frame=false" alt="GitHub Trophies"/>
 </div>
 
 ---
@@ -281,22 +281,22 @@ Compute shaders, rendering pipelines
 
 <!-- Replace REPO_NAME with your actual repository names -->
 
-<a href="https://github.com/LegalCode/REPO_NAME_1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalCode&repo=REPO_NAME_1&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 1"/>
+<a href="https://github.com/LegalXCode/REPO_NAME_1">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalXCode&repo=REPO_NAME_1&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 1"/>
 </a>
 &nbsp;
-<a href="https://github.com/LegalCode/REPO_NAME_2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalCode&repo=REPO_NAME_2&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 2"/>
+<a href="https://github.com/LegalXCode/REPO_NAME_2">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalXCode&repo=REPO_NAME_2&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 2"/>
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/LegalCode/REPO_NAME_3">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalCode&repo=REPO_NAME_3&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 3"/>
+<a href="https://github.com/LegalXCode/REPO_NAME_3">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalXCode&repo=REPO_NAME_3&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 3"/>
 </a>
 &nbsp;
-<a href="https://github.com/LegalCode/REPO_NAME_4">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalCode&repo=REPO_NAME_4&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 4"/>
+<a href="https://github.com/LegalXCode/REPO_NAME_4">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalXCode&repo=REPO_NAME_4&bg_color=0D1117&title_color=0A84FF&icon_color=5AC8FA&text_color=C9D1D9&border_color=1a2a3f&border_radius=14&show_owner=false" alt="Project 4"/>
 </a>
 
 </div>
@@ -319,7 +319,7 @@ Compute shaders, rendering pipelines
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=LegalCode&style=for-the-badge&color=0A84FF&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=LegalXCode&style=for-the-badge&color=0A84FF&label=PROFILE+VIEWS)
 
 </div>
 
