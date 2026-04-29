@@ -313,9 +313,9 @@ Compute shaders, rendering pipelines
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-0A84FF?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/LegalCode)
+[![Telegram](https://img.shields.io/badge/Telegram-0A84FF?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/LegalXCode)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-5AC8FA?style=for-the-badge&logo=safari&logoColor=black)](https://legalcode.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-5AC8FA?style=for-the-badge&logo=safari&logoColor=black)](https://t.me/LegalCodePro)
 &nbsp;
 [![Twitter / X](https://img.shields.io/badge/Twitter%20%2F%20X-0A84FF?style=for-the-badge&logo=x&logoColor=white)](https://x.com/LegalCode)
 &nbsp;
