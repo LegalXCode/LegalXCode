@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/header.svg" alt="Legal Code — Senior Fullstack Developer" width="100%" />
+  <img src="assets/banner.webp" alt="Legal Code — Senior Fullstack Developer" width="100%" />
 
   <br/><br/>
 
