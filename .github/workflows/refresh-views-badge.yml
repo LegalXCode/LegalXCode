@@ -1,0 +1,59 @@
+name: Refresh profile views badge
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild badge SVG
+        run: |
+          set -euo pipefail
+          COUNT=$(curl -sL 'https://komarev.com/ghpvc/?username=LegalXCode&style=flat' | grep -oE '>[0-9]+<' | head -1 | tr -d '<>')
+          COUNT=${COUNT:-0}
+          LABEL='PROFILE VIEWS'
+          python3 - <<PY
+          count = "${COUNT}"
+          label = "${LABEL}"
+          lw = max(110, int(len(label) * 9.2 + 24))
+          rw = max(44, int(len(count) * 11.5 + 24))
+          w = lw + rw
+          h = 36
+          svg = f"""<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"{w}\" height=\"{h}\" role=\"img\" aria-label=\"{label}: {count}\">
+            <title>{label}: {count}</title>
+            <defs>
+              <filter id=\"g\" x=\"-20%\" y=\"-40%\" width=\"140%\" height=\"180%\">
+                <feGaussianBlur stdDeviation=\"2\" result=\"b\"/>
+                <feMerge><feMergeNode in=\"b\"/><feMergeNode in=\"SourceGraphic\"/></feMerge>
+              </filter>
+            </defs>
+            <rect width=\"{lw}\" height=\"{h}\" fill=\"#04110a\"/>
+            <rect x=\"{lw}\" width=\"{rw}\" height=\"{h}\" fill=\"#00ff85\"/>
+            <rect x=\"0.75\" y=\"0.75\" width=\"{w-1.5}\" height=\"{h-1.5}\" fill=\"none\" stroke=\"#00ff85\" stroke-opacity=\"0.55\" rx=\"2\"/>
+            <text x=\"{lw/2}\" y=\"{h/2 + 5}\" text-anchor=\"middle\"
+                  font-family=\"Verdana, Geneva, DejaVu Sans, sans-serif\" font-size=\"13\" font-weight=\"700\"
+                  letter-spacing=\"1.2\" fill=\"#00ff85\" filter=\"url(#g)\">{label}</text>
+            <text x=\"{lw + rw/2}\" y=\"{h/2 + 5}\" text-anchor=\"middle\"
+                  font-family=\"Verdana, Geneva, DejaVu Sans, sans-serif\" font-size=\"14\" font-weight=\"800\"
+                  fill=\"#04110a\">{count}</text>
+          </svg>
+          """
+          open('assets/profile-views.svg', 'w').write(svg)
+          print('count', count)
+          PY
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add assets/profile-views.svg
+          git diff --staged --quiet || git commit -m "chore: refresh profile views badge"
+          git push

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201" height="36" role="img" aria-label="PROFILE VIEWS: 134">
+  <title>PROFILE VIEWS: 134</title>
+  <defs>
+    <filter id="g" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="143" height="36" fill="#04110a"/>
+  <rect x="143" width="58" height="36" fill="#00ff85"/>
+  <rect x="0.75" y="0.75" width="199.5" height="34.5" fill="none" stroke="#00ff85" stroke-opacity="0.55" rx="2"/>
+  <text x="71.5" y="23.0" text-anchor="middle"
+        font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="13" font-weight="700"
+        letter-spacing="1.2" fill="#00ff85" filter="url(#g)">PROFILE VIEWS</text>
+  <text x="172.0" y="23.0" text-anchor="middle"
+        font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="14" font-weight="800"
+        fill="#04110a">134</text>
+</svg>

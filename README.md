@@ -285,7 +285,8 @@ Compute shaders, rendering pipelines
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=LegalXCode&style=for-the-badge&label=PROFILE+VIEWS&labelColor=00ff85&color=04110a)
+![Profile Views](./assets/profile-views.svg)
+<img src="https://komarev.com/ghpvc/?username=LegalXCode&style=flat-square&color=00ff85" alt="" width="1" height="1" />
 
 </div>
 
