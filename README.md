@@ -6,7 +6,7 @@
 -->
 
 <div align="center">
-  <img src="./assets/banner-3d.webp" width="100%" alt="Legal Code — Code like it's evidence. Ship like it's verdict."/>
+  <img src="./assets/banner-orbit.webp" width="100%" alt="Legal Code — Code like it's evidence. Ship like it's verdict."/>
 </div>
 
 <br/>
