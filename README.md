@@ -184,26 +184,20 @@ class LegalCode:
 ## `⟨ / GitHub Metrics ⟩`
 
 <div align="center">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api?username=LegalXCode&show_icons=true&bg_color=010302&title_color=00ff85&icon_color=39ff14&text_color=b7cfc0&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&bg_color=010302&title_color=00ff85&text_color=b7cfc0&hide_border=true&langs_count=8" alt="Top Languages"/>
+  <img height="185em" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=LegalXCode&show_icons=true&bg_color=010302&title_color=00ff85&icon_color=39ff14&text_color=b7cfc0&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+  <img height="185em" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&bg_color=010302&title_color=00ff85&text_color=b7cfc0&hide_border=true&langs_count=8" alt="Top Languages"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=LegalXCode&background=010302&border=010302&ring=00ff85&fire=39ff14&currStreakLabel=00ff85&sideLabels=b7cfc0&sideNums=b7cfc0&currStreakNum=ffffff&dates=7a9486" alt="GitHub Streak"/>
+  <img src="https://streak-stats.demolab.com/?user=LegalXCode&background=010302&border=010302&ring=00FF85&fire=39FF14&currStreakLabel=00FF85&sideLabels=B7CFC0&sideNums=B7CFC0&currStreakNum=FFFFFF&dates=7A9486" alt="GitHub Streak"/>
 </div>
 
 <br/>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=LegalXCode&bg_color=010302&color=39ff14&line=00ff85&point=ffffff&area=true&area_color=00ff85&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" width="100%"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=LegalXCode&theme=onedark&column=-1&margin-w=6&margin-h=6&no-bg=true&no-frame=true" alt="GitHub Trophies"/>
 </div>
 
 ---
@@ -266,11 +260,11 @@ Compute shaders, rendering pipelines
 <div align="center">
 
 <a href="https://github.com/LegalXCode/Editing-yandex-direct-charts">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalXCode&repo=Editing-yandex-direct-charts&bg_color=010302&title_color=00ff85&icon_color=39ff14&text_color=b7cfc0&hide_border=true&show_owner=false" alt="Editing-yandex-direct-charts"/>
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LegalXCode&repo=Editing-yandex-direct-charts&bg_color=010302&title_color=00ff85&icon_color=39ff14&text_color=b7cfc0&hide_border=true&show_owner=false" alt="Editing-yandex-direct-charts"/>
 </a>
 &nbsp;
 <a href="https://github.com/LegalXCode/Fake-Loader">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=LegalXCode&repo=Fake-Loader&bg_color=010302&title_color=00ff85&icon_color=39ff14&text_color=b7cfc0&hide_border=true&show_owner=false" alt="Fake-Loader"/>
+  <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=LegalXCode&repo=Fake-Loader&bg_color=010302&title_color=00ff85&icon_color=39ff14&text_color=b7cfc0&hide_border=true&show_owner=false" alt="Fake-Loader"/>
 </a>
 
 </div>
