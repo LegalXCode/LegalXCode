@@ -7,25 +7,43 @@
 
 <br>
 
-legal studio делает цифровые продукты целиком: интерфейсы, сайты, приложения, айдентику, баннеры и всё, что к ним прилагается.
+legal studio делает цифровые продукты целиком: интерфейсы, сайты, приложения, ботов, айдентику, баннеры и всё, что к ним прилагается.
 
-Название — про порядок: всё по правилам, но без бюрократии.
+Название — про порядок: всё по правилам, но без бюрократии. Визуально — холодная тишина: много воздуха, один акцент, строгая сетка.
+
+`Принимаем заказы` &nbsp; [@LEGALXCODE](https://t.me/LEGALXCODE)
 
 ## `01 / УСЛУГИ`
 
-**Разрабатываем всё. Любой сложности.**
+| Сайты и интерфейсы | Боты и автоматизация | Айдентика и баннеры |
+| :-- | :-- | :-- |
+| Лендинги, сайты под ключ, приложения и панели. От макета до запуска в одних руках. | Telegram-боты, парсеры, чекеры и скрипты, которые работают сами. | Знак, фирменный стиль, баннеры и посты для каналов, форумов и рекламы. |
 
-`Разработка` &nbsp; Сайты, лендинги, боты, казино, скрипты, Web3, чекеры, парсеры.
-
-`Дизайн` &nbsp; Интерфейсы, айдентика, баннеры.
+Ещё: Web3, казино, всё нестандартное. Разрабатываем всё, любой сложности.
 
 ## `02 / СТЕК`
 
-**Пишем на том, что нужно задаче.**
+Пишем на том, что нужно задаче.
 
-`Node.js` `React` `Python` `HTML` `CSS` `NestJS` `Solidity` `Web3` `Next.js` `Express` `Telegraf` `MySQL` `SQLite` и другие
+| Направление | Инструменты |
+| :-- | :-- |
+| `Фронтенд` | `HTML` `CSS` `React` `Next.js` |
+| `Бэкенд` | `Node.js` `Express` `NestJS` `Python` |
+| `Боты` | `Telegraf` `aiogram` |
+| `Web3` | `Solidity` `Web3` |
+| `Данные` | `MySQL` `PostgreSQL` `SQLite` |
+| `Инфраструктура` | `Docker` `Nginx` `GitHub Actions` |
 
-## `03 / РАБОТЫ`
+## `03 / КАК РАБОТАЕМ`
+
+От идеи до релиза — в одной студии.
+
+| 01 | 02 | 03 | 04 |
+| :-- | :-- | :-- | :-- |
+| **Задача** | **Дизайн** | **Код** | **Запуск** |
+| Разбираем, что нужно на самом деле | Рисуем без лишнего | Пишем чисто, чтобы работало | Выкатываем и сопровождаем |
+
+## `04 / РАБОТЫ`
 
 <a href="https://github.com/LegalXCode/Editing-yandex-direct-charts">
   <picture>
@@ -40,11 +58,22 @@ legal studio делает цифровые продукты целиком: ин
   </picture>
 </a>
 
-Остальные кейсы и работы студии — в канале [@LEGALCODEPRO](https://t.me/LEGALCODEPRO).
+Часть проектов закрыта. Остальные кейсы и работы студии — в канале [@LEGALCODEPRO](https://t.me/LEGALCODEPRO).
 
-## `04 / СВЯЗЬ`
+## `05 / ЦИФРЫ`
 
-| `Напишите — возьмёмся за задачу` | `Смотрите, что уже сделали` |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.anuraghazra1.vercel.app/api?username=LegalXCode&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&bg_color=0A0D12&text_color=B9D2F5&icon_color=3B5BFF&border_color=161B23&border_radius=4">
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=LegalXCode&show_icons=true&hide_title=true&count_private=true&include_all_commits=true&bg_color=F4F7FB&text_color=5B6678&icon_color=3B5BFF&border_color=E6EBF2&border_radius=4" alt="GitHub-статистика">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&langs_count=6&hide_title=true&bg_color=0A0D12&text_color=B9D2F5&border_color=161B23&border_radius=4">
+  <img width="49%" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=LegalXCode&layout=compact&langs_count=6&hide_title=true&bg_color=F4F7FB&text_color=5B6678&border_color=E6EBF2&border_radius=4" alt="Языки">
+</picture>
+
+## `06 / СВЯЗЬ`
+
+| Напишите — возьмёмся за задачу | Смотрите, что уже сделали |
 | :-- | :-- |
 | **[@LEGALXCODE](https://t.me/LEGALXCODE)** | **[@LEGALCODEPRO](https://t.me/LEGALCODEPRO)** |
 
